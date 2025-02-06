@@ -7,7 +7,7 @@
 drivers['driver_id'].drop_duplicates(inplace = True)
 ```
 
-2. Checking duplicates
+2. Null handling
 ```python
 vehicles.isnull().sum()   # to count the number of null
 vehicles.fillna(0)   # to fill values
