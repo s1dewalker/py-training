@@ -106,6 +106,8 @@ reshaped_arr = arr.reshape(1, -1)
 <br/>
 
 #### [View code](https://github.com/s1dewalker/py-training/blob/main/py_Training.ipynb)
+<br/><br/>
 
+## Fn + lamda
 
-## [Fn + lambda](https://github.com/s1dewalker/py-training/blob/main/py_training_fn_lmbda.ipynb)
+#### [View code](https://github.com/s1dewalker/py-training/blob/main/py_training_fn_lmbda.ipynb)
