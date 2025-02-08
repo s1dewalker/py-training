@@ -115,5 +115,5 @@ reshaped_arr = arr.reshape(1, -1)
 ## NumPy only
 <br/>
 
-#### [View code](https://github.com/s1dewalker/py-training/blob/main/py_training_fn_lmbda.ipynb)
+#### [View code](https://github.com/s1dewalker/py-training/blob/main/numpy.ipynb)
 
