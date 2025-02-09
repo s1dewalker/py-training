@@ -103,7 +103,6 @@ reshaped_arr = arr.reshape(-1, 1)
 # Convert into a row vector
 reshaped_arr = arr.reshape(1, -1)
 ```
-<br/>
 
 #### [View code](https://github.com/s1dewalker/py-training/blob/main/py_Training.ipynb)
 <br/>
@@ -111,10 +110,12 @@ reshaped_arr = arr.reshape(1, -1)
 ## Fn + lamda
 
 #### [View code](https://github.com/s1dewalker/py-training/blob/main/py_training_fn_lmbda.ipynb)
+<br/>
 
 ## NumPy only
 
 #### [View code](https://github.com/s1dewalker/py-training/blob/main/numpy.ipynb)
+<br/>
 
 ## Web Scraping
 ```python
