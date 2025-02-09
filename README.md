@@ -124,6 +124,13 @@ faster, memory efficient, supports vector operations, integrate well with scient
 #### 4. `arr.flatten()`
 #### 5. `np.concatenate( [arr1, arr2] )`
 axis = 0 by default
+
+#### axis = 0
+
+<img src="sc/axis0pt1.JPG" alt="Description" width="500">
+
+<img src="sc/axis0pt2.JPG" alt="Description" width="250">
+
 #### 6. `np.prod(mat, axis = 1)` | same for np.sum, mean, var, std, min, max
 axis = 0 by default
 
