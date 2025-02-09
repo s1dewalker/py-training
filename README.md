@@ -104,12 +104,12 @@ reshaped_arr = arr.reshape(-1, 1)
 reshaped_arr = arr.reshape(1, -1)
 ```
 
-#### [View code](https://github.com/s1dewalker/py-training/blob/main/py_Training.ipynb)
+### [View code](https://github.com/s1dewalker/py-training/blob/main/py_Training.ipynb)
 <br/>
 
 ## Fn + lamda
 
-#### [View code](https://github.com/s1dewalker/py-training/blob/main/py_training_fn_lmbda.ipynb)
+### [View code](https://github.com/s1dewalker/py-training/blob/main/py_training_fn_lmbda.ipynb)
 <br/>
 
 ## NumPy only
@@ -125,13 +125,13 @@ faster, memory efficient, supports vector operations, integrate well with scient
 #### 5. `np.concatenate( [arr1, arr2] )`
 axis = 0 by default
 
-#### axis = 0
+### axis = 0
 
 <img src="sc/axis0pt1.JPG" alt="Description" width="500">
 
 <img src="sc/axis0pt2.JPG" alt="Description" width="250">
 
-#### axis = 1
+### axis = 1
 
 <img src="sc/axis1pt1.JPG" alt="Description" width="500">
 
@@ -140,9 +140,13 @@ axis = 0 by default
 #### 6. `np.prod(mat, axis = 1)` | same for np.sum, mean, var, std, min, max
 axis = 0 by default
 
+#
+### axis = 0 | across rows going VERTICALLY down ↓ | column wise
 by default most (if not all) have axis = 0 | across rows | vertical ops
+#
 
 #### 7. `arr1.reshape(-1,1)`
+<br/> 
 
 #### [View code](https://github.com/s1dewalker/py-training/blob/main/numpy.ipynb)
 <br/>
@@ -173,5 +177,5 @@ titles = table.find_all('th')
 table_titles = [title.text.strip() for title in titles]
 ```
 
-#### [View code](https://github.com/s1dewalker/py-training/blob/main/Web_Scraping.ipynb)
+### [View code](https://github.com/s1dewalker/py-training/blob/main/Web_Scraping.ipynb)
 
