@@ -135,7 +135,7 @@ axis = 0 by default
 
 <img src="sc/axis1pt1.JPG" alt="Description" width="500">
 
-<img src="sc/axis1pt2.JPG" alt="Description" width="250">
+<img src="sc/axis1pt2.JPG" alt="Description" width="500">
 
 #### 6. `np.prod(mat, axis = 1)` | same for np.sum, mean, var, std, min, max
 axis = 0 by default
