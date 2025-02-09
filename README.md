@@ -113,7 +113,28 @@ reshaped_arr = arr.reshape(1, -1)
 #### [View code](https://github.com/s1dewalker/py-training/blob/main/py_training_fn_lmbda.ipynb)
 
 ## NumPy only
-<br/>
 
 #### [View code](https://github.com/s1dewalker/py-training/blob/main/numpy.ipynb)
+
+## Web Scraping
+```python
+# Import libraries
+from bs4 import BeautifulSoup
+import requests
+```
+
+```python
+# get the web data
+
+url = 'https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue'
+page = requests.get(url)
+soup = BeautifulSoup(page.text, 'html')
+print(soup.prettify)
+```
+```python
+# To find all tables and then get the required one from the list
+table = soup.find_all('table')[0]
+```
+
+#### [View code](https://github.com/s1dewalker/py-training/blob/main/Web_Scraping.ipynb)
 
