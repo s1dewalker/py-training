@@ -135,6 +135,12 @@ print(soup.prettify)
 # To find all tables and then get the required one from the list
 table = soup.find_all('table')[0]
 ```
+```python
+# To get titles
+titles = table.find_all('th')
+
+table_titles = [title.text.strip() for title in titles]
+```
 
 #### [View code](https://github.com/s1dewalker/py-training/blob/main/Web_Scraping.ipynb)
 
