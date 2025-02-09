@@ -148,7 +148,7 @@ by default most (if not all) have axis = 0 | across rows | vertical ops
 #### 7. `arr1.reshape(-1,1)`
 <br/> 
 
-#### [View code](https://github.com/s1dewalker/py-training/blob/main/numpy.ipynb)
+### [View code](https://github.com/s1dewalker/py-training/blob/main/numpy.ipynb)
 <br/>
 
 ## Web Scraping
