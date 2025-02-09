@@ -1,4 +1,4 @@
-# py-training: Practise
+# Py-Training: Practise
 
 ## Pandas + NumPy
 1. To drop duplicates | `drop_duplicates`
